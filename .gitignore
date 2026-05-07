@@ -1,0 +1,108 @@
+# =========================
+# DEPENDENCIES
+# =========================
+node_modules/
+
+# =========================
+# BUILD OUTPUT
+# =========================
+dist/
+build/
+out/
+coverage/
+
+# Vite cache
+.vite/
+
+# =========================
+# TYPESCRIPT
+# =========================
+*.tsbuildinfo
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# ENV FILES
+# =========================
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# =========================
+# LOCAL DATA (IMPORTANT FOR YOUR APP)
+# =========================
+# (NO subir datos de usuarios o scraping)
+data/
+snapshots/
+exports/
+tmp/
+cache/
+
+igrid-data/
+igrid-snapshots/
+igrid-exports/
+
+# runtime exports
+igrid-export-*.json
+igrid-snapshot-*.json
+igrid-backup-*.json
+
+# =========================
+# DATABASE FILES (IF YOU USE ANY LATER)
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# CHROME EXTENSION / BUILD ARTIFACTS
+# =========================
+extension-build/
+plasmo-build/
+*.crx
+*.zip
+
+# injected bundle output (if you regenerate it)
+dist/igrid.injected.js.map
+
+# =========================
+# IDE / EDITORS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+Desktop.ini
+
+# Linux temp
+*~
+
+# =========================
+# OPTIONAL DEV FOLDERS
+# =========================
+playground/
+scratch/
+test-output/
+
+# =========================
+# PRIVATE CONFIG (VERY IMPORTANT FOR THIS TYPE OF TOOL)
+# =========================
+private-config/
+local-config/
