@@ -179,7 +179,7 @@ Puedes importar listas sin tener Instagram abierto.
 Formato simple:
 
 ```txt
-openai
+lilbieber
 @instagram
 https://www.instagram.com/natgeo/
 ```
@@ -188,7 +188,7 @@ También acepta CSV con columnas como:
 
 ```csv
 username,full_name
-openai,OpenAI
+lilbieber,LilBieber
 instagram,Instagram
 natgeo,National Geographic
 ```
