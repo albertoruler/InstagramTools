@@ -436,19 +436,3 @@ src/
   utils/         utilidades
   types/         tipos TypeScript
 ```
-
-## Futuro
-
-Cuando el MVP esté validado, el siguiente paso lógico sería convertirlo en extensión real de Chrome con:
-
-- Plasmo
-- React
-- Tailwind
-- Zustand
-- IndexedDB/Dexie
-
-Pero la regla principal debe mantenerse:
-
-```txt
-ayudar a revisar manualmente, no automatizar acciones de Instagram
-```
