@@ -188,7 +188,7 @@ También acepta CSV con columnas como:
 
 ```csv
 username,full_name
-lilbieber,LilBieber
+lilbieber,Justin Bieber
 instagram,Instagram
 natgeo,National Geographic
 ```
